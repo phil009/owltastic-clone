@@ -1,0 +1,6 @@
+body: #f0d09a
+sec: #2C2622
+pri: #faefdd
+font-family: "Quasimoda", "ivyora-text", sans-serif;
+font-family: regardsregular, sans-serif;
+font-family: "logic-monospace", mono;
