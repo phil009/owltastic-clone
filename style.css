@@ -365,6 +365,27 @@ a.norm3{
 
 
 
+
+/***nav and links styles***/
+.brand2{
+    text-decoration: none;
+    color: #2C2622;
+    font-family: regardsregular, sans-serif;
+}
+a.norm8{
+    text-decoration: none;
+    color: #2C2622;
+    font-family: "logic-monospace", mono;
+}
+footer{
+    background-color: #faefdd
+    width: 100%;
+    padding: 20px 5px 10px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+
 /*background svgs*/
 .moonphase{
     position: absolute;
@@ -479,15 +500,13 @@ a.norm3{
 }
 .moonphase3{
     position: absolute;
-    background: url("img/bg-moon-phases.webp") bottom right no-repeat;
+    background: url("img/bg-moon-phases.webp") bottom left no-repeat;
     background-size: cover;
     width: 300px;
     height: 300px;
-    top: -100px;
-    left: -100px;
-    transform: translate(-50%, -50%);
+    bottom: 150px;
+    left: -150px;
     z-index: -1;
-    animation: rotation 120s infinite linear;
     mix-blend-mode: darken;
     opacity: 40%;
 }
@@ -497,11 +516,9 @@ a.norm3{
     background-size: cover;
     width: 300px;
     height: 300px;
-    bottom: -100px;
-    right: -100px;
-    transform: translate(-50%, -50%);
+    bottom: 150px;
+    right: -150px;
     z-index: -1;
-    animation: rotation 120s infinite linear;
     mix-blend-mode: darken;
     opacity: 40%;
 }
@@ -542,6 +559,12 @@ a.norm3{
     .moonphase2{
         display: none;
     } 
+    .moonphase3{
+        display: none;
+    }    
+    .moonphase4{
+        display: none;
+    } 
     .owlsided{
         display: none;
     }  
@@ -571,7 +594,7 @@ a.norm3{
         font-size: .7rem;
     }
     a{
-        font-size: .5rem;
+        font-size: .6rem;
     }
     h6{
         font-size: .6rem;
